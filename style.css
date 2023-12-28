@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    
+}
+main{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.title{
+    width: 100vw;
+    height: max-content;
+    background-color: rgb(0, 95, 195);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: ; */
+    padding: 1%;
+    
+}
+.left{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+}
+.content{
+    width: 60%;
+}
+.left img{
+    width: 21%;
+    border-radius: 50%;
+    border-right: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    box-shadow: 4px 4px 13px rgb(252, 252, 246);
+}
+.left img:hover{
+scale: 1.1;
+transition: ease-in-out;
+}
+.title h1{
+    font-size: 1.7rem;
+    color: rgb(242, 245, 243);
+}
+.title h2{
+    color: rgb(242, 245, 243);
+
+}
+.port{
+    background-color: rgb(200, 243, 243);
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.downloadbtn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    padding: 1%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(0, 95, 195);
+}
+.downloadbtn a{
+    margin: 3%;
+    padding: 3%;
+    border-bottom: 2px solid rgb(200, 243, 243);
+}
+
+.intro{
+    /* margin-top: -10%; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.introimage{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.introimage img{
+    width: 25%;
+    border-radius: 50%;
+    border-right: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    box-shadow: 4px 4px 13px rgb(252, 252, 246);
+    display: none;
+}
+.introcontent p{
+    text-align: center;
+    font-size: large;
+}
+.vertline{
+    height: 70px;
+    background-color: rgb(118, 235, 235);
+    width: 0.4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.skills{
+    padding-top: 2%;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.heading{
+    padding: 0.5% 3%;
+    /* border-bottom: 5px solid black; */
+}
+.heading h1{
+    font-size: larger;
+}
+.skillset{
+    margin-top: 1%;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.pskill{
+    font-size: large;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 15px;
+    border: 1px solid black;
+    color: black;
+    box-shadow: 2px 2px 5px black;
+}
+.projects{
+    width: 80%;
+    height: max-content;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projcard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 90vw;
+    height: max-content;
+}
+.cards{
+    padding: 2%;
+    border: 1.5px solid black;
+    margin: 1%;
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+.explore{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(16, 90, 219);
+    
+}
+.cards:hover{
+    box-shadow: 4px 4px 5px black;
+    cursor: pointer;
+}
+.projtop{
+    width: 25vw;
+    height: max-content;
+}
+.projtop img{
+    width: 100%;
+    border-radius: 10px;
+}
+.projbottom p{
+    text-align: justify;
+    font-size: medium
+}
+.lang{
+    display: flex;
+    flex-direction: row;
+}
+.langs{
+    margin: 1%;
+    background-color: black;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 5px;
+    font-size: medium;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.expdetail{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.expdetail p{
+    font-size: large;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(0, 95, 195);
+    color: white;
+}
+footer a{
+    color: white;
+    font-size: medium;
+}
+@media only screen and (max-width: 700px) {
+    #navimg {
+      display: none;
+    }
+    #introimg{
+        display: block;
+    }
+    .left{
+        width: 0%;
+    }
+    .content{
+        width: 100%;
+    }
+    .content h1{
+        font-size: larger;
+    }
+    .content h2{
+        font-size: large    ;
+    }
+    .cards{
+        width: 80vw;
+        height: 40vh;
+        height: max-content;
+        margin-bottom: 8%;
+    }
+    .projtop{
+        height: max-content;
+    }
+    .skillset{
+        width: 90%;
+    }
+    footer h4{
+        text-align: center;
+    }
+  }
